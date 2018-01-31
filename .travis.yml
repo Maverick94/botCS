@@ -7,7 +7,7 @@ python:
   - 3.5
 
 install:
-  - pip install Pipfile
+  - pip install -p
 
 script:
   - pytest API_web_test.py
