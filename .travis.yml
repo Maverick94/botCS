@@ -1,0 +1,13 @@
+branches:
+  only:
+  - master
+
+language: python
+python:
+  - 3.5
+
+install:
+  - pip install Pipfile
+
+script:
+  - pytest API_web_test.py
