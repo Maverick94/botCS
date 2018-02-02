@@ -2,3 +2,4 @@ pytest
 hug
 gspread
 oauth2client
+gunicorn
