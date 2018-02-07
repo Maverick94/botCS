@@ -37,3 +37,12 @@ def victorias():
     sheet = client.open('CS:GO Database WeRkAh/Graná').sheet1
     result = sheet.cell(4,17).value
     return { "victorias":result }
+
+@hug.get('/npartidas')
+def npartidas():
+    sheet = client.open('CS:GO Database WeRkAh/Graná').sheet1
+    total = sheet.cell(3,17).value
+    victorias = sheet.cell(4,17).value
+    empates = sheet.cell(6,17).value
+    perdidas = sheet.cell(5,17).value
+    return { "toal partidas":total, "victorias":victorias, "empates":empates, "perdidas":perdidas }
