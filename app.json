@@ -1,0 +1,7 @@
+{
+   "name": "Bot Counter-Strike: Global Offensive",
+   "description": "Bot de Telegram que nos va a servir para monitorizar nuestros datos estadísticos de Counter Strike. Para ello usaremos una tabla excel en la cual tenemos algunos calculos hechos.",
+   "repository": "https://github.com/Maverick94/botCS",
+   "logo": "http://media.steampowered.com/apps/csgo/blog/images/competitive_logo_large.png",
+   "keywords": ["python", "telegram"]
+}
